@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background-color:#E0A070;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    border: 2px solid white;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: arial, sans-serif;
+    transition: .3s;
+    color: white
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+div.container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div.items {
+    padding:  10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    height: auto;
+    background-color: #3B8B94;
+    margin-right:10px ;
+}
+
+aside {
+    min-width: 190px;
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color: #94582C;
+}
+
+footer {
+    text-align: center;
+    background-color: #99F5FF;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+
+}
+
+div.item {
+    font-family: arial, sans-serif;
+    display: flex;
+    background-color: #6FD4E0;
+    width: 224px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+div.item table,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 30px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+div.item img {
+    width: 180px;
+    margin: 10px;
+}
+
+
+.btn {
+    padding:0.5rem;
+    margin:0.5rem;
+    background-color: lightgreen;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.basket {
+    width:100%;
+    padding: 10px;
+}
+.basket table {
+    color:white;
+    width:100%;
+    border-collapse: collapse;
+}
+.basket table tr td {
+    color:white;
+    text-align: left;
+    padding:2px;
+}
+.basket table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.btnClear{
+    width: 50%;
+}
+
+.btnSend{
+    width: 50%;
+}
+
+.btnRemove{
+    width: 100%;
+}
+body{
+    margin: 10px;
+}
